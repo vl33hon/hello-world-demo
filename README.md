@@ -1,6 +1,6 @@
 # Tiny Web Demo
 
-A small, responsive Hello World website built with plain HTML, CSS, and JavaScript. The button changes the greeting when clicked.
+A tiny demo with one job: say hello. It is built with plain HTML, CSS, and JavaScript, and its button changes the greeting when clicked.
 
 ## Run it
 
