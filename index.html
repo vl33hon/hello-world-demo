@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f7f1" />
+    <title>Hello, world! | Tiny Web Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topline">
+        <a class="wordmark" href="./" aria-label="Tiny Web Demo home">
+          <span class="wordmark-dot" aria-hidden="true"></span>
+          tiny web demo
+        </a>
+        <span class="edition">NO. 001 <span aria-hidden="true">/</span> THE BEGINNING</span>
+      </header>
+
+      <section class="hello" aria-labelledby="page-title">
+        <div class="hello-copy">
+          <p class="eyebrow"><span class="spark" aria-hidden="true">✳</span> A small thing, made with the web</p>
+          <h1 id="page-title">Hello,<br /><span>world!</span></h1>
+          <p class="intro">Every big idea starts with a first line. This one says hello.</p>
+          <button class="hello-button" id="hello-button" type="button">
+            <span class="button-icon" aria-hidden="true">↗</span>
+            Say hello
+          </button>
+          <p class="response" id="response" aria-live="polite">Your turn. Give it a click.</p>
+        </div>
+
+        <div class="orbit-art" aria-hidden="true">
+          <div class="orbit orbit-outer"></div>
+          <div class="orbit orbit-inner"></div>
+          <div class="sun"></div>
+          <span class="orbit-label label-top">A new day</span>
+          <span class="orbit-label label-bottom">starts here</span>
+          <span class="orbit-star star-one">✳</span>
+          <span class="orbit-star star-two">✦</span>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>Made of HTML, CSS & a little curiosity.</span>
+        <span class="footer-mark">01 <span aria-hidden="true">—</span> 01</span>
+      </footer>
+    </main>
+  </body>
+</html>
